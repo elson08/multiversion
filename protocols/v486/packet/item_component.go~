@@ -1,0 +1,22 @@
+package packet
+
+import (
+	"github.com/potlounge/multiversion/protocols/v486/types"
+	"github.com/sandertv/gophertunnel/minecraft/protocol"
+	"github.com/sandertv/gophertunnel/minecraft/protocol/packet"
+)
+
+// ItemComponent is sent by the server to attach client-side components to a custom item.
+type ItemComponent struct {
+	// Items holds a list of all custom items with their respective components set.
+	Items []types.ItemComponentEntry
+}
+
+// ID ...
+func (*ItemComponent) ID() uint32 {
+	return packet.IDItemRegistry
+}
+
+func (pk *ItemComponent) Marshal(io protocol.IO) {
+	protocol.Slice(io, &pk.Items)
+}

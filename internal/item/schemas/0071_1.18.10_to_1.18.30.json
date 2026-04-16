@@ -1,0 +1,33 @@
+{
+	"remappedMetas": {
+		"minecraft:chest_boat": {
+			"0": "minecraft:oak_chest_boat",
+			"1": "minecraft:spruce_chest_boat",
+			"2": "minecraft:birch_chest_boat",
+			"3": "minecraft:jungle_chest_boat",
+			"4": "minecraft:acacia_chest_boat",
+			"5": "minecraft:dark_oak_chest_boat"
+		},
+		"minecraft:spawn_egg": {
+			"131": "minecraft:warden_spawn_egg"
+		},
+		"minecraft:stone_block_slab": {
+			"0": "minecraft:smooth_stone_slab",
+			"1": "minecraft:sandstone_slab",
+			"2": "minecraft:petrified_oak_slab",
+			"3": "minecraft:cobblestone_slab",
+			"4": "minecraft:brick_slab",
+			"5": "minecraft:stone_brick_slab",
+			"6": "minecraft:quartz_slab",
+			"7": "minecraft:nether_brick_slab"
+		}
+	},
+	"renamedIds": {
+		"minecraft:concretepowder": "minecraft:concrete_powder",
+		"minecraft:invisiblebedrock": "minecraft:invisible_bedrock",
+		"minecraft:movingblock": "minecraft:moving_block",
+		"minecraft:pistonarmcollision": "minecraft:piston_arm_collision",
+		"minecraft:sealantern": "minecraft:sea_lantern",
+		"minecraft:stickypistonarmcollision": "minecraft:sticky_piston_arm_collision"
+	}
+}
